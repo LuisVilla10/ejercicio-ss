@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.04.17 a las 10:18:17 AM CDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="https://t4is.uv.mx/todo">
+    <schemaBindings map="false">
+      <package name="https.t4is_uv_mx.todo"/>
+    </schemaBindings>
+    <bindings scd="tns:AgregarToDoRequest">
+      <class ref="https.t4is_uv_mx.todo.AgregarToDoRequest"/>
+    </bindings>
+    <bindings scd="tns:ObtenerToDosResponse">
+      <class ref="https.t4is_uv_mx.todo.ObtenerToDosResponse"/>
+    </bindings>
+    <bindings scd="tns:AgregarToDoResponse">
+      <class ref="https.t4is_uv_mx.todo.AgregarToDoResponse"/>
+    </bindings>
+    <bindings scd="tns:EliminarToDoRequest">
+      <class ref="https.t4is_uv_mx.todo.EliminarToDoRequest"/>
+    </bindings>
+    <bindings scd="tns:EliminarToDoResponse">
+      <class ref="https.t4is_uv_mx.todo.EliminarToDoResponse"/>
+    </bindings>
+    <bindings scd="tns:ModificarToDoRequest">
+      <class ref="https.t4is_uv_mx.todo.ModificarToDoRequest"/>
+    </bindings>
+    <bindings scd="tns:ModificarToDoResponse">
+      <class ref="https.t4is_uv_mx.todo.ModificarToDoResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
